@@ -46,6 +46,11 @@ header a {
     text-decoration: none;
 }
 
+#menu {
+    list-style: none;
+    letter-spacing: 1px;
+}
+
 /* Nav styles with dropdown menu */
 nav {
     position: absolute;
@@ -91,4 +96,38 @@ main {
 
 #social-links a {
     color: #516662;
+}
+
+/* Media query: tablet size screens and larger */
+@media screen and (min-width: 768px) {
+    
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 0;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 10px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 58px;
+    }
 }
