@@ -1,7 +1,7 @@
 
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Sans+Mono:wght@100..900&display=swap');
-/* Handlee, Noto Dans Mono */
+/* Handlee, Noto Sans Mono */
 
 /* Wildcard selector to override default styles */
 * {
@@ -15,6 +15,8 @@ body {
     min-height: 100vw;
     display: flex;
     flex-direction: column;
+    font-family: "Noto Sans Mono";
+    color: #516662;
 }
 
 h1, h2, h3 {
@@ -53,8 +55,14 @@ nav {
     width: 100%;
     left: 0;
     box-shadow: 0 1px 2px #516662;
+    text-align: center;
 }
 
+nav li {
+    padding: 0 0 10px 10px;
+    font-size: 110%;
+    font-weight: bold;
+}
 /* Menu display toggle */
 #dropdown-menu:checked~nav {
     display: block;
@@ -74,6 +82,10 @@ main {
 }
 
 /* Footer */
-footer {
+#social-links {
     background-color: #f9f7c3;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
 }
