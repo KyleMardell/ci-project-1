@@ -98,7 +98,7 @@ main {
     color: #516662;
 }
 
-/* Media query: tablet size screens and larger */
+/* Media query: Tablet size screens and larger */
 @media screen and (min-width: 768px) {
     
     /* Header */
@@ -129,5 +129,16 @@ main {
     /* Main content */
     main {
         margin-top: 58px;
+    }
+}
+
+/* Media query: Large screens such as laptops and desktops */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        color: #7c977a;
+    }
+
+    #social-links a:hover {
+        color: #7c977a;
     }
 }
