@@ -89,6 +89,40 @@ main {
     height: 600px;
     background: url(../images/gardens.jpg) no-repeat center center / cover;
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-text {
+    background-color: rgba(67, 81, 79, .8);
+    color: white;
+    height: 40%;
+    width: 80%;
+    position: absolute;
+    top: 30px;
+    padding: 40px 15px 40px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+#hero-text h2 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    padding-bottom: 15px;
+}
+
+#hero-text p {
+    padding: 5px 0;
+}
+
+.plant-icon {
+    font-size: 250%;
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    color: #f9f7c3;
 }
 
 /* Footer */
