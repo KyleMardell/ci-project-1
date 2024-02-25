@@ -35,9 +35,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background: linear-gradient(160deg, #f9f7c3, #7c977a 85%);
-    border-bottom: solid 1px #516662;
+    background-color: #f9f7c3;
     box-shadow: 0 1px 2px #516662;
+}
+
+header a {
+    color: #516662;
+    text-decoration: none;
 }
 
 /* Nav styles with dropdown menu */
@@ -45,6 +49,10 @@ nav {
     position: absolute;
     display: none;
     top: 100%;
+    background-color: #f9f7c3;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 1px 2px #516662;
 }
 
 /* Menu display toggle */
@@ -61,4 +69,11 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    background-color: #f9f7c3;
 }
