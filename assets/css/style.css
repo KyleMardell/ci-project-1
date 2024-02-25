@@ -1,5 +1,64 @@
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Sans+Mono:wght@100..900&display=swap');
+/* Handlee, Noto Dans Mono */
+
+/* Wildcard selector to override default styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    font-family: "Handlee", sans-serif;
+
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+/* Header */
+header{
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: linear-gradient(160deg, #f9f7c3, #7c977a 85%);
+    border-bottom: solid 1px #516662;
+    box-shadow: 0 1px 2px #516662;
+}
+
+/* Nav styles with dropdown menu */
+nav {
+    position: absolute;
+    display: none;
+    top: 100%;
+}
+
+/* Menu display toggle */
+#dropdown-menu:checked~nav {
+    display: block;
+}
+
+#dropdown-menu {
+    display: none;
+}
+
+
+/* Main content */
+main {
+    flex: 1 0 auto;
+    margin-top: 44px;
 }
