@@ -1,4 +1,3 @@
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Sans+Mono:wght@100..900&display=swap');
 /* Handlee, Noto Sans Mono */
@@ -19,7 +18,9 @@ body {
     color: #516662;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Handlee", sans-serif;
 
 }
@@ -29,7 +30,7 @@ h1 {
 }
 
 /* Header */
-header{
+header {
     padding: 2px 10px;
     position: fixed;
     z-index: 99;
@@ -183,7 +184,7 @@ main {
 
 /* Media query: Tablet size screens and larger */
 @media screen and (min-width: 768px) {
-    
+
     /* Header */
     nav {
         display: block;
@@ -226,26 +227,69 @@ main {
     }
 
     /* Info section */
-    .info-box {
+    #info {
         display: flex;
-        padding: 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        position: relative;
+        min-width: 700px;
+        margin: 20px 0;
+        display: flex;
     }
 
     .info-text {
         max-width: 400px;
         height: 300px;
-        z-index: 10;
-        background-color: rgba(255, 255, 255, .95);
+        min-width: 400px;
+        margin: 0;
+        background-color: rgba(255, 255, 255, .9);
+        position: absolute;
+        z-index: 2;
+    }
+
+    .text-right {
+        top: 10%;
+        right: 0;
+    }
+
+    .text-left {
+        top: 10%;
+        left: 0;
     }
 
     /* Trying to create a text box half overlapping an image */
-    #info-image1 {
-        background: url(../images/lettuce.jpg) no-repeat center center / cover;
+
+    .info-image {
+        display: block;
         width: 400px;
         height: 400px;
-        position: absolute;
-        right: 10%;
+        border-radius: 5%;
     }
+
+    .image-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #info-image1 {
+        background: url(../images/lettuce.jpg) no-repeat center center / cover;
+    }
+
+    #info-image2 {
+        background: url(../images/onion-multi.jpg) no-repeat center center / cover;
+    }
+
+    #info-image3 {
+        background: url(../images/tools.jpg) no-repeat center center / cover;
+    }
+
+    #info-image4 {
+        background: url(../images/potatoes.jpg) no-repeat center center / cover;
+    }
+
 
 }
 
