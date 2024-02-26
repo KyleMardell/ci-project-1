@@ -66,6 +66,11 @@ nav {
     font-weight: bold;
 }
 
+.current-page {
+    text-decoration: underline 3px;
+
+}
+
 /* Menu display toggle */
 #dropdown-menu:checked~nav {
     display: block;
