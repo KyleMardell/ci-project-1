@@ -152,6 +152,7 @@ main {
     font-size: 0.8rem;
     margin: 15px;
     background-color: white;
+    border-radius: 5%;
 }
 
 .info-text h3 {
@@ -213,7 +214,7 @@ main {
         margin-top: 58px;
     }
 
-    /* Hero content */
+    /* Hero section */
     #hero-text {
         max-width: 400px;
         position: absolute;
@@ -223,6 +224,29 @@ main {
         justify-content: center;
         font-size: 1.4rem;
     }
+
+    /* Info section */
+    .info-box {
+        display: flex;
+        padding: 10%;
+    }
+
+    .info-text {
+        max-width: 400px;
+        height: 300px;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, .95);
+    }
+
+    /* Trying to create a text box half overlapping an image */
+    #info-image1 {
+        background: url(../images/lettuce.jpg) no-repeat center center / cover;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        right: 10%;
+    }
+
 }
 
 /* Media query: Large screens such as laptops and desktops */
