@@ -260,8 +260,7 @@ main {
         left: 0;
     }
 
-    /* Trying to create a text box half overlapping an image */
-
+    /* Info images */
     .info-image {
         display: block;
         width: 400px;
@@ -274,31 +273,36 @@ main {
         justify-content: flex-end;
     }
 
-    #info-image1 {
+    #image-lettuce {
         background: url(../images/lettuce.jpg) no-repeat center center / cover;
     }
 
-    #info-image2 {
+    #image-onions {
         background: url(../images/onion-multi.jpg) no-repeat center center / cover;
     }
 
-    #info-image3 {
+    #image-tools {
         background: url(../images/tools.jpg) no-repeat center center / cover;
     }
 
-    #info-image4 {
+    #image-potatoes {
         background: url(../images/potatoes.jpg) no-repeat center center / cover;
     }
-
-
 }
 
 /* Media query: Large screens such as laptops and desktops */
 @media screen and (min-width: 992px) {
+    /* Nav */
     #menu a:hover {
         color: #7c977a;
     }
 
+    /* Hero section increased height to fill more of the screen */
+    #hero {
+        height: 800px;
+    }
+
+    /* Footer */
     #social-links a:hover {
         color: #7c977a;
     }
