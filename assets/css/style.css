@@ -201,7 +201,7 @@ main {
     background-color: rgba(67, 81, 79, .8);
     color: white;
     border-radius: 5%;
-    width: 70%;
+    width: 195px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -362,6 +362,22 @@ main {
     #image-plants {
         background: url(../images/plants.jpg) no-repeat center center / cover;
     }
+
+    /* Call to action section */
+    #cta-text {
+        right: 20%;
+        bottom: 20%;
+        width: 250px;
+        height: 300px;
+    }
+
+    #cta-text h3 {
+        font-size: 1.7rem;
+    }
+
+    #cta-text p {
+        font-size: 1.1rem;
+    }
 }
 
 /* Media query: Large screens such as laptops and desktops */
@@ -369,6 +385,28 @@ main {
     /* Nav */
     #menu a:hover {
         color: #7c977a;
+    }
+
+    /* Hero section */
+
+    /* Call to action section */
+    #cta-text {
+        width: 400px;
+        height: 470px;
+    }
+
+    #cta-text h3 {
+        font-size: 3rem;
+    }
+
+    #cta-text p {
+        font-size: 1.5rem;
+    }
+
+    #cta-text button {
+        width: 200px;
+        height: 70px;
+        font-size: 2rem;
     }
 
     /* Footer */
