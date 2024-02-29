@@ -318,16 +318,19 @@ main {
         color: #7c977a;
     }
 
-    /* Info section */
-    .info-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 50px;
-        column-gap: 100px;
-    }
-
     /* Footer */
     #social-links a:hover {
         color: #7c977a;
     }
+}
+
+/* Media query: Screens 1200px and above */
+@media screen and (min-width: 1300px) {
+        /* Info section */
+        .info-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 50px;
+            column-gap: 100px;
+        }
 }
