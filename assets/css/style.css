@@ -90,6 +90,10 @@ main {
     flex-direction: column;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Hero section */
 
 #hero {
@@ -141,6 +145,13 @@ main {
     flex-direction: column;
     background: linear-gradient(-45deg, #f9f7c3, #7c977a);
     padding: 40px 0;
+}
+
+#info > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 .info-image {
@@ -216,6 +227,12 @@ main {
     }
 
     /* Hero section */
+
+    /* Hero section increased height to fill more of the screen */
+    #hero {
+        height: 800px;
+    }
+
     #hero-text {
         max-width: 400px;
         position: absolute;
@@ -231,6 +248,10 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #info > h2 {
+        font-size: 2.5rem;
     }
 
     .info-box {
@@ -297,9 +318,12 @@ main {
         color: #7c977a;
     }
 
-    /* Hero section increased height to fill more of the screen */
-    #hero {
-        height: 800px;
+    /* Info section */
+    .info-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+        column-gap: 100px;
     }
 
     /* Footer */
