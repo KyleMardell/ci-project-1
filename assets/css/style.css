@@ -1,6 +1,6 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Sans+Mono:wght@100..900&display=swap');
-/* Handlee, Noto Sans Mono */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Patrick+Hand&display=swap');
+/* Handlee, Patrick Hand*/
 
 /* Wildcard selector to override default styles */
 * {
@@ -14,7 +14,7 @@ body {
     min-height: 100vw;
     display: flex;
     flex-direction: column;
-    font-family: "Noto Sans Mono", sans-serif;
+    font-family: "Patrick Hand", sans-serif;
     color: #516662;
 }
 
