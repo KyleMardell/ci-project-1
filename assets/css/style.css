@@ -434,15 +434,6 @@ main {
         font-size: 2rem;
     }
 
-    /* Contact page */
-    #contact {
-        height: inherit;
-    }
-
-    .contact-container {
-
-    }
-
     /* Footer */
     #social-links a:hover {
         color: #7c977a;
