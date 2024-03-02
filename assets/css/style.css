@@ -234,7 +234,28 @@ main {
     background: url(../images/potatoes.jpg) no-repeat center center / cover;
     flex: 1 0 auto;
     height: calc(100vh - 107px);
+    padding: 10px;
 }
+
+.contact-container>form {
+    background-color: rgba(249, 247, 195, .8);
+    color: #516662;
+}
+
+.user-details {
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+}
+
+.user-details label {
+    width: 35%;
+}
+
+.text-input {
+    width: 60%;
+}
+
 
 /* Footer */
 #social-links {
@@ -404,6 +425,7 @@ main {
     .contact-container {
         height: calc(100vh - 118px);
     }
+
 }
 
 /* Media query: Large screens such as laptops and desktops */

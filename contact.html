@@ -40,13 +40,13 @@
                 <h2>Get in touch.</h2>
                 <p>Enter your details to get in touch, for more info, or to sign up. We look forward to hearing from
                     you. Happy Gardening!</p>
-                <fieldset>
+                <fieldset class="user-details">
                     <legend>My Details</legend>
-                    <label for="first-name">First Name</label>
+                    <label for="first-name">First Name: </label>
                     <input type="text" name="first-name" id="first-name" class="text-input" placeholder="Jane" required>
-                    <label for="last-name">Last Name</label>
+                    <label for="last-name">Last Name: </label>
                     <input type="text" name="last-name" id="last-name" class="text-input" placeholder="Smith" required>
-                    <label for="email-address">Email Address</label>
+                    <label for="email-address">Email Address: </label>
                     <input type="email" name="email-address" id="email-address" class="text-input"
                         placeholder="name@emailaddress.com" required>
                 </fieldset>
@@ -54,14 +54,21 @@
                     <legend>I want to know more about ...</legend>
                     <label for="club-attend">Joining a session</label>
                     <input type="checkbox" name="club-attend" id="club-attend" checked>
+                    <br>
                     <label for="club-join">Joining the club (Becoming a regular)</label>
                     <input type="checkbox" name="club-join" id="club-join">
+                    <br>
                     <label for="club-kids">Kids Sessions</label>
                     <input type="checkbox" name="club-kids" id="club-kids">
+                    <br>
                     <label for="club-info">General information</label>
                     <input type="checkbox" name="club-info" id="club-info">
-                    <label for="user-message">Your Message</label>
-                    <textarea name="user-message" id="user-message" cols="35" rows="10"
+                    <br>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <textarea name="user-message" id="user-message" class="message-text-input" cols="30" rows="8"
                         placeholder="I want to know more about..."></textarea>
                 </fieldset>
                 <button type="submit">Submit</button>
