@@ -35,6 +35,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    height: 47px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -228,6 +229,13 @@ main {
     border-radius: 5px;
 }
 
+/* Contact page */
+.contact-container {
+    background: url(../images/potatoes.jpg) no-repeat center center / cover;
+    flex: 1 0 auto;
+    height: calc(100vh - 107px);
+}
+
 /* Footer */
 #social-links {
     background-color: #f9f7c3;
@@ -237,6 +245,7 @@ main {
     padding: 10px 0;
     font-size: 170%;
     border-top: 2px solid #516662;
+    height: 60px
 }
 
 #social-links a {
@@ -247,12 +256,16 @@ main {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header {
+        height: 58px;
+    }
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding: 0;
+        top: 0;
     }
 
     #menu {
