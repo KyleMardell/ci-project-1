@@ -263,6 +263,7 @@ main {
 
 #contact-form>h2 {
     font-size: 2rem;
+    text-decoration: underline;
 }
 
 #contact-form>p {
@@ -482,6 +483,19 @@ main {
         height: calc(100vh - 118px);
     }
 
+    #contact-form {
+        max-height: 550px;
+        width: 375px;
+        position: absolute;
+        left: 150px;
+        top: 200px;
+        border-radius: 5%;
+        padding: 25px;
+    }
+
+    .form-button {
+        margin-top: 10px;
+    }
 }
 
 /* Media query: Large screens such as laptops and desktops */
@@ -510,6 +524,13 @@ main {
         width: 200px;
         height: 70px;
         font-size: 2rem;
+    }
+
+    /* Contact page */
+
+    .form-button:hover {
+        background-color: #516662;
+        color: #f9f7c3;
     }
 
     /* Footer */
