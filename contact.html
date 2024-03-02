@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Garden Collective. Gardening club in Manchester, UK. Allotment gardening, fruit and vegetables, flowers and plants.">
+    <meta name="keywords" content="gardening, garden, fruit, vegetables, community, Manchester, UK, allotment, harvest">
+    <!-- Title-->
+    <title>Garden Collective</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Garden Collective</h1>
+        </a>
+        <input type="checkbox" name="dropdown-menu" id="dropdown-menu">
+        <label for="dropdown-menu" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="contact.html" class="current-page">Sign-Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section id="contact">
+            <form action="POST" action="https://formdump.codeinstitute.net" id="contact-form">
+                <h2>Get in touch.</h2>
+                <p>Enter your details to get in touch, for more info and to sign up. We look forward to hearing from
+                    you.</p>
+                <fieldset>
+                    <legend>My Details</legend>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" class="text-input" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" class="text-input" required>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email-address" id="email-address" class="text-input" required>
+                </fieldset>
+                <fieldset>
+                    <legend>I want to know more about ...</legend>
+                    <label for="club-attend">Joining a session</label>
+                    <input type="checkbox" name="club-attend" id="club-attend" checked>
+                    <label for="club-join">Joining the club (Becoming a regular)</label>
+                    <input type="checkbox" name="club-join" id="club-join">
+                    <label for="club-kids">Kids Sessions</label>
+                    <input type="checkbox" name="club-kids" id="club-kids">
+                    <label for="club-info">General information</label>
+                    <input type="checkbox" name="club-info" id="club-info">
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-links">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.X.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-square-x-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/402b471de5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
