@@ -255,10 +255,16 @@ main {
 /* Media query: Tablet size screens and larger */
 @media screen and (min-width: 768px) {
 
+    /* Main content */
+    main {
+        margin-top: 58px;
+    }
+
     /* Header */
     header {
         height: 58px;
     }
+
     nav {
         display: block;
         position: relative;
@@ -283,11 +289,6 @@ main {
 
     #logo {
         font-size: 250%;
-    }
-
-    /* Main content */
-    main {
-        margin-top: 58px;
     }
 
     /* Hero section */
@@ -324,7 +325,7 @@ main {
         font-size: 3.5rem;
     }
 
-    .info-text > h3 {
+    .info-text>h3 {
         font-size: 2rem;
     }
 
@@ -355,7 +356,6 @@ main {
         left: 0;
     }
 
-    /* Info images */
     .info-image {
         display: block;
         width: 400px;
@@ -399,6 +399,11 @@ main {
     #cta-text>p {
         font-size: 1.1rem;
     }
+
+    /* Contact page */
+    .contact-container {
+        height: calc(100vh - 118px);
+    }
 }
 
 /* Media query: Large screens such as laptops and desktops */
@@ -427,6 +432,15 @@ main {
         width: 200px;
         height: 70px;
         font-size: 2rem;
+    }
+
+    /* Contact page */
+    #contact {
+        height: inherit;
+    }
+
+    .contact-container {
+
     }
 
     /* Footer */
