@@ -117,7 +117,7 @@ main {
     border-radius: 5%;
 }
 
-#hero-text h2 {
+#hero-text>h2 {
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 1.6rem;
@@ -126,7 +126,7 @@ main {
     text-align: center;
 }
 
-#hero-text p {
+#hero-text>p {
     padding: 5px 5%;
     font-size: 1.3rem;
 }
@@ -170,17 +170,17 @@ main {
     border-radius: 5%;
 }
 
-.info-text h3 {
+.info-text>h3 {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 5%;
 }
 
-.info-text p {
+.info-text>p {
     font-size: 1rem;
 }
 
-.info-text hr {
+.info-text>hr {
     margin-bottom: 5%;
 }
 
@@ -208,7 +208,7 @@ main {
     padding: 20px;
 }
 
-#cta-text h3 {
+#cta-text>h3 {
     text-align: center;
 }
 
@@ -287,12 +287,12 @@ main {
         align-items: center;
         justify-content: center;
     }
-    
-    #hero-text > h2 {
+
+    #hero-text>h2 {
         font-size: 3rem;
     }
 
-    #hero-text > p {
+    #hero-text>p {
         font-size: 2rem;
     }
 
@@ -308,7 +308,11 @@ main {
     }
 
     #info>h2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
+    }
+
+    .info-text > h3 {
+        font-size: 2rem;
     }
 
     .info-box {
@@ -375,11 +379,11 @@ main {
         height: 300px;
     }
 
-    #cta-text h3 {
+    #cta-text>h3 {
         font-size: 1.7rem;
     }
 
-    #cta-text p {
+    #cta-text>p {
         font-size: 1.1rem;
     }
 }
@@ -398,11 +402,11 @@ main {
         height: 470px;
     }
 
-    #cta-text h3 {
+    #cta-text>h3 {
         font-size: 3rem;
     }
 
-    #cta-text p {
+    #cta-text>p {
         font-size: 1.5rem;
     }
 
