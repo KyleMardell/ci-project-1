@@ -37,16 +37,17 @@
         <section id="contact">
             <form action="POST" action="https://formdump.codeinstitute.net" id="contact-form">
                 <h2>Get in touch.</h2>
-                <p>Enter your details to get in touch, for more info and to sign up. We look forward to hearing from
-                    you.</p>
+                <p>Enter your details to get in touch, for more info, or to sign up. We look forward to hearing from
+                    you. Happy Gardening!</p>
                 <fieldset>
                     <legend>My Details</legend>
                     <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" id="first-name" class="text-input" required>
+                    <input type="text" name="first-name" id="first-name" class="text-input" placeholder="Jane" required>
                     <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name" class="text-input" required>
+                    <input type="text" name="last-name" id="last-name" class="text-input" placeholder="Smith" required>
                     <label for="email-address">Email Address</label>
-                    <input type="email" name="email-address" id="email-address" class="text-input" required>
+                    <input type="email" name="email-address" id="email-address" class="text-input"
+                        placeholder="name@emailaddress.com" required>
                 </fieldset>
                 <fieldset>
                     <legend>I want to know more about ...</legend>
@@ -58,6 +59,9 @@
                     <input type="checkbox" name="club-kids" id="club-kids">
                     <label for="club-info">General information</label>
                     <input type="checkbox" name="club-info" id="club-info">
+                    <label for="user-message">Your Message</label>
+                    <textarea name="user-message" id="user-message" cols="35" rows="10"
+                        placeholder="I want to know more about..."></textarea>
                 </fieldset>
                 <button type="submit">Submit</button>
             </form>
