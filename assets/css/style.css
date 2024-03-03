@@ -333,6 +333,7 @@ main {
 #calendar {
     background: url(../images/sunflower.jpg) no-repeat center center / cover;
     min-height: 95vh;
+    flex: 1 0 auto;
 }
 
 #calendar-months {
