@@ -332,6 +332,10 @@ main {
 /* Calendar page */
 #calendar {
     background: url(../images/sunflower.jpg) no-repeat center center / cover;
+    min-height: 95vh;
+}
+
+#calendar-months {
     display: flex;
     flex-wrap: wrap;
 }
@@ -351,7 +355,7 @@ main {
     color: #f9f7c3;
     text-align: center;
     border: 2px ridge #f9f7c3;
-    flex-basis: 200px;
+    flex-basis: 250px;
     flex-grow: 1;
 }
 
@@ -364,6 +368,7 @@ main {
 
 .plant-harvest-container {
     display: flex;
+    min-height: calc(100% - 42px);
 }
 
 .plant-harvest {
@@ -605,6 +610,13 @@ main {
     .form-button:hover {
         background-color: #516662;
         color: #f9f7c3;
+    }
+
+    /* Calendar page */
+    #calendar > h2 {
+        background-color: transparent;
+        color: #516662;
+        font-size: 3rem;
     }
 
     /* Footer */
