@@ -211,6 +211,8 @@ main {
 
 #cta-text>h3 {
     text-align: center;
+    text-decoration: underline;
+    font-size: 1.4rem;
 }
 
 #cta-text>p {
@@ -325,6 +327,27 @@ main {
 
 #image-gallery {
     line-height: 0;
+}
+
+/* Calendar page */
+#calendar {
+    background: url(../images/sunflower.jpg) no-repeat center center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#calendar > h2 {
+    background-color: rgba(67, 81, 79, .8);
+    color: #f9f7c3;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+    text-decoration: underline;
+}
+
+.month {
+    background-color: rgba(67, 81, 79, .8);
+    color: #f9f7c3;
 }
 
 /* Footer */
