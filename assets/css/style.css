@@ -314,6 +314,19 @@ main {
     padding: 2px;
 }
 
+/* Gallery page */
+#gallery {
+    background-color: #7c977a;
+}
+
+#image-gallery img {
+    width: 100%;
+}
+
+#image-gallery {
+    line-height: 0;
+}
+
 /* Footer */
 #social-links {
     background-color: #f9f7c3;
@@ -496,6 +509,12 @@ main {
     .form-button {
         margin-top: 10px;
     }
+
+    /* Gallery page */
+    #image-gallery {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: Large screens such as laptops and desktops */
@@ -527,7 +546,6 @@ main {
     }
 
     /* Contact page */
-
     .form-button:hover {
         background-color: #516662;
         color: #f9f7c3;
@@ -539,7 +557,7 @@ main {
     }
 }
 
-/* Media query: Screens 1200px and above */
+/* Media query: Screens 1300px and above */
 @media screen and (min-width: 1300px) {
 
     /* Info section */
@@ -548,5 +566,10 @@ main {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 50px;
         column-gap: 100px;
+    }
+
+    /* Gallery page */
+    #image-gallery {
+        column-count: 3;
     }
 }
