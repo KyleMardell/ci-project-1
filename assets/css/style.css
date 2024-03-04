@@ -11,7 +11,7 @@
 
 /* General styles */
 body {
-    min-height: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "Patrick Hand", sans-serif;
@@ -22,7 +22,6 @@ h1,
 h2,
 h3 {
     font-family: "Handlee", sans-serif;
-
 }
 
 h1 {
@@ -343,7 +342,7 @@ main {
     flex-wrap: wrap;
 }
 
-#calendar > h2 {
+#calendar>h2 {
     background-color: rgba(67, 81, 79, .8);
     color: #f9f7c3;
     font-size: 2rem;
@@ -362,7 +361,7 @@ main {
     flex-grow: 1;
 }
 
-.month > h3 {
+.month>h3 {
     padding: 5px;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -379,14 +378,14 @@ main {
     border: 1px solid #f9f7c3;
 }
 
-.plant-harvest > h4 {
+.plant-harvest>h4 {
     border-bottom: 1px solid #f9f7c3;
     padding: 5%;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.plant-harvest > p {
+.plant-harvest>p {
     text-align: left;
     padding: 5%;
 }
@@ -409,7 +408,6 @@ main {
 
 /* Media query: Tablet size screens and larger */
 @media screen and (min-width: 768px) {
-
     /* Main content */
     main {
         margin-top: 58px;
@@ -616,10 +614,10 @@ main {
     }
 
     /* Calendar page */
-    #calendar > h2 {
+    #calendar>h2 {
         background-color: transparent;
         color: #516662;
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     /* Footer */
