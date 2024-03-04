@@ -14,6 +14,9 @@
 
 <h2>Credits</h2>
 <h3>Content</h3>
+<ul>
+    <li>The calendar planting and harvesting content was taken from www.lovethegarden.com</li>
+</ul>
 <h3>Media</h3>
 <ul>
     <li>Photos used on the website are from www.pixabay.com</li>
