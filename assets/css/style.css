@@ -333,7 +333,6 @@ main {
 /* Calendar page */
 #calendar {
     background: url(../images/sunflower.webp) no-repeat center center / cover;
-    min-height: 95vh;
     flex: 1 0 auto;
 }
 
@@ -577,6 +576,17 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+
+    /* Calendar page */
+    #calendar {
+        min-height: calc(100vh - 200px);
+    }
+
+    #calendar>h2 {
+        background-color: transparent;
+        color: #516662;
+        font-size: 3rem;
+    }
 }
 
 /* Media query: Large screens such as laptops and desktops */
@@ -620,13 +630,6 @@ main {
         color: #f9f7c3;
     }
 
-    /* Calendar page */
-    #calendar>h2 {
-        background-color: transparent;
-        color: #516662;
-        font-size: 5rem;
-    }
-
     /* Footer */
     #social-links a:hover {
         color: #7c977a;
@@ -647,5 +650,11 @@ main {
     /* Gallery page */
     #image-gallery {
         column-count: 3;
+    }
+
+    
+    /* Calendar page */
+    #calendar>h2 {
+        font-size: 5rem;
     }
 }
