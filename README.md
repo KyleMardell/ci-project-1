@@ -15,5 +15,10 @@
 <h2>Credits</h2>
 <h3>Content</h3>
 <h3>Media</h3>
+<ul>
+    <li>Photos used on the website are from www.pixabay.com</li>
+    <li>Icons used on the wesite are from www.fontawesome.com</li>
+    <li>Font used on the website are from www.fonts.google.com</li>
+</ul>
 
 
