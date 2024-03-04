@@ -97,7 +97,7 @@ main {
 #hero {
     width: 100%;
     height: 90vh;
-    background: url(../images/gardens.jpg) no-repeat center center / cover;
+    background: url(../images/gardens.webp) no-repeat center center / cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -187,7 +187,7 @@ main {
 
 /* Call to action section */
 #call-to-action {
-    background: url(../images/raspberry.jpg) no-repeat center center / cover;
+    background: url(../images/raspberry.webp) no-repeat center center / cover;
     height: 90vh;
     width: 100%;
     position: relative;
@@ -233,7 +233,7 @@ main {
 
 /* Contact page */
 #contact {
-    background: url(../images/potatoes.jpg) no-repeat center center / cover;
+    background: url(../images/potatoes.webp) no-repeat center center / cover;
     flex: 1 0 auto;
     height: calc(100vh - 107px);
 }
@@ -331,7 +331,7 @@ main {
 
 /* Calendar page */
 #calendar {
-    background: url(../images/sunflower.jpg) no-repeat center center / cover;
+    background: url(../images/sunflower.webp) no-repeat center center / cover;
     min-height: 95vh;
     flex: 1 0 auto;
 }
@@ -522,19 +522,19 @@ main {
     }
 
     #image-lettuce {
-        background: url(../images/lettuce.jpg) no-repeat center center / cover;
+        background: url(../images/lettuce.webp) no-repeat center center / cover;
     }
 
     #image-onions {
-        background: url(../images/onion-multi.jpg) no-repeat center center / cover;
+        background: url(../images/onion-multi.webp) no-repeat center center / cover;
     }
 
     #image-tools {
-        background: url(../images/tools.jpg) no-repeat center center / cover;
+        background: url(../images/tools.webp) no-repeat center center / cover;
     }
 
     #image-plants {
-        background: url(../images/plants.jpg) no-repeat center center / cover;
+        background: url(../images/plants.webp) no-repeat center center / cover;
     }
 
     /* Call to action section */
