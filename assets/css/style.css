@@ -219,10 +219,12 @@ main {
     margin: 10% 0;
 }
 
-#cta-text button {
+#cta-text a {
     width: 120px;
     height: 35px;
     font-family: "Patrick Hand", sans-serif;
+    text-align: center;
+    padding: 5px;
     font-size: large;
     font-weight: bold;
     letter-spacing: 1px;
