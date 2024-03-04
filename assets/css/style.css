@@ -601,10 +601,17 @@ main {
         font-size: 1.5rem;
     }
 
-    #cta-text button {
+    #cta-text a {
         width: 200px;
         height: 70px;
         font-size: 2rem;
+        padding: 10px;
+    }
+
+    #cta-text a:hover {
+        background-color: #516662;
+        color: #f9f7c3;
+        border: solid 2px #f9f7c3;
     }
 
     /* Contact page */
