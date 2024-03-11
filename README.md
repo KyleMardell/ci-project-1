@@ -95,6 +95,8 @@ Testing included:
 - Images
     - Tested all images are displayed on all devices
 
+I tested the website using Google Chromes Lighthouse tool for accessibility, performance, best practices and SEO. Performance recieved a score of 85% and all other categories recieved 100% scores.
+
 ### User Testing
 In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what I changed on the site to reflect this feesback.
 
