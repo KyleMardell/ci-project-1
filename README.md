@@ -40,18 +40,19 @@ Testing in development was done using Google Chrome Developer Tools on a Windows
 ### Unfixed Bugs
 
 ## Deployment
-    - The site was deployed using GitHub pages.
-    - The repositary can be found here - https://github.com/KyleMardell/ci-project-1
-    - The deplayed site can be found here - https://kylemardell.github.io/ci-project-1/index.html
+- The site was deployed using GitHub pages.
+- The repositary can be found here - https://github.com/KyleMardell/ci-project-1
+- The deplayed site can be found here - https://kylemardell.github.io/ci-project-1/index.html
 
 ## Credits
+
 ### Content
 The calendar planting and harvesting content was taken from www.lovethegarden.com
 
 ### Media
-    - Photos used on the website are from www.pixabay.com
-    - Icons used on the wesite are from www.fontawesome.com
-    - Font used on the website are from www.fonts.google.com
+- Photos used on the website are from www.pixabay.com
+- Icons used on the wesite are from www.fontawesome.com
+- Font used on the website are from www.fonts.google.com
 
 
 
