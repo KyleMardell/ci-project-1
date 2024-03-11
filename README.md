@@ -48,9 +48,34 @@ The contact page allows the user to send a message to the club. It also serves a
 I would like to add a page that displays club memeber messages, feedback and reviews. This feature would be used to show positive messages from club members and would serve to attract new memebers to the club.
 
 ## Testing
+
+### Site Testing
 Testing in development was done using Google Chrome Developer Tools on a Windows 11 machine. While building the site i used the "inspect" option within Google Chrome to display different device screen sizes. I also tested the site on a 1080p and 4k monitor to check for consistancy accross all larger screen sizes. The site was deployed to GitHub pages early in development. I used this as a way to check that implemented features were diplayed correctly when not using my development environment. I would test the deplyed site at the end of every session to ensure it was working as expected through the internet, not just a local server. I tested the funtionality of the site on multiple browsers, including Chrome, Firefox, Edge and Safari. Testing included, all internal links work correctly, all external links work correctly and open in a new browser tab, all layouts are displayed as intended, contact form required information and warning messages, contact form can be submitted correctly, dropdown menu can be accessed and is displayed correctly.
 
+### User Testing
+In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what i changed on the site to reflect this feesback.
+
+- Paragraph text did not fit the style of the site and should follow the style of the heading font
+    - Changed the font to a more 'handwritten' style to better suit the site
+- Signup page form is more of a contact form than a signup form
+    - Changed naming of 'Signup' to 'Contact' to better suit
+- Desktop headings seems small for the screen size
+    - Increased heading sizes in home and calendar pages
+
+Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration i decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
+
 ### Bugs
+
+- Nav bar text not aligned with logo text
+    - Removed padding to correctly align all items is the nav bar
+- Hero text not filling container/div
+    - Aligned text to center on larger screens
+- Info images not resizing to fit design
+    - Used a div for consistant sizing and added the image as a background to maintain aspect ratio
+- Contact page image not filling the screen
+    - I was applying the image to a div instead of the section. Applied image to section background
+- Background images on calendar and contact pages exceeded screen height
+    - I had set the min 'height' to viewport 'width', changed to viewport height as intended
 
 ### Validator Testing
 
@@ -60,6 +85,9 @@ Testing in development was done using Google Chrome Developer Tools on a Windows
     - No errors were returned when padding though the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fci-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
+
+- User can choose not to select any checkbox on the signup page
+    - It is not possible to make at least one checkbox 'required' using only HTML and CSS and requires the use of JavaScript
 
 ## Deployment
 - The site was deployed using GitHub pages.
