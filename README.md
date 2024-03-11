@@ -11,53 +11,53 @@ Users of the Garden Collective website can find information about the club, how 
 ### Existing Features
     
 #### Navigation bar
-- The navigation bar is identical on all 4 pages of the site and it fixed to the top of the screen for both consitancy and ease of use. 
-- The nav bar is fully resposive with a drop down menu for smaller screens and a fixed page list on larger screens. 
-- This section allows the user to easily navigate the site and see all available pages without using the browsers "back" button.
+- The navigation bar is identical on all 4 pages of the site and it fixed to the top of the screen for both consitancy and ease of use
+- The nav bar is fully resposive with a drop down menu for smaller screens and a fixed page list on larger screens
+- This section allows the user to easily navigate the site and see all available pages without using the browsers "back" button
 
 ![Nav Bar](https://github.com/KyleMardell/ci-project-1/blob/main/media/header.png)
 
 #### Hero section
-- The landing page or hero section displays a large image of the clubs allotment, with a text overlay of the club location, letting the user know imediately who the site is for.
+- The landing page or hero section displays a large image of the clubs allotment, with a text overlay of the club location, letting the user know imediately who the site is for
 
 ![Hero Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/hero-section.png)
 
 #### Info section
-- The info section gives the user all the information needed about the club and serves to attract more members.
-- On small devices(phone screens) the information is split into 4 text boxes, each giving different aspects of information about the club.
-- On larger devices, the text boxes are accompaied by a relevant image and is displayed in a grid format to make better use of screen space.
+- The info section gives the user all the information needed about the club and serves to attract more members
+- On small devices(phone screens) the information is split into 4 text boxes, each giving different aspects of information about the club
+- On larger devices, the text boxes are accompaied by a relevant image and is displayed in a grid format to make better use of screen space
 
 ![Info Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/info-section.png)
 
 #### Call-To-Action section
-- The call-to-action section is a way to direct users to the contact/sign-up page. 
-- This section displays an attractive image with with a textbox overlay. The text box contains a link to the sign-up page. 
-- This section provides the user a quick way of navigating to the sign-up page, and the use of a call to action will further entice potential club memebers to join.
+- The call-to-action section is a way to direct users to the contact/sign-up page
+- This section displays an attractive image with with a textbox overlay. The text box contains a link to the sign-up page
+- This section provides the user a quick way of navigating to the sign-up page, and the use of a call to action will further entice potential club memebers to join
 
 ![Call To Action Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/cta-section.png)
 
 #### Calendar page
-- The calendar page gives the user more information about what produce the club is planting and harvesting from month to month, throughout the growing season. 
-- This section gives the user further information about what produce the club grows and what they can expect when joining a session in a particular month. 
-- It can also be used as a calendar for home growing, displaying when each vegetable should be planted or harvested.
+- The calendar page gives the user more information about what produce the club is planting and harvesting from month to month, throughout the growing season
+- This section gives the user further information about what produce the club grows and what they can expect when joining a session in a particular month
+- It can also be used as a calendar for home growing, displaying when each vegetable should be planted or harvested
 
 ![Calendar Page](https://github.com/KyleMardell/ci-project-1/blob/main/media/calander-section.png)
 
 #### Gallery page
-- The gallery page displays photos of the types of produce that the club grows and what a club member can expect to see at the allotment. 
-- It also serves to display all the images from the other pages that are not displayed on smaller devices. This means all photos can still be viewed when using a mobile device to access the site.
+- The gallery page displays photos of the types of produce that the club grows and what a club member can expect to see at the allotment
+- It also serves to display all the images from the other pages that are not displayed on smaller devices. This means all photos can still be viewed when using a mobile device to access the site
 
 ![Gallery](https://github.com/KyleMardell/ci-project-1/blob/main/media/gallery%20section.png)
 
 #### Contact page
-- The contact page allows the user to send a message to the club. 
-- It also serves as a way for potential members to display an interest in joining the club. On the contact page there is an optional checkbox section, designed to let the club oporator easily see what type of question a user may have. 
-- The user is required to submit their first and second name, email adress and message in order to send in a contact form.
+- The contact page allows the user to send a message to the club
+- It also serves as a way for potential members to display an interest in joining the club. On the contact page there is an optional checkbox section, designed to let the club oporator easily see what type of question a user may have
+- The user is required to submit their first and second name, email adress and message in order to send in a contact form
 
 ![Contact Page](https://github.com/KyleMardell/ci-project-1/blob/main/media/contact-section.png)
 
 ### Fututre features to implement
-- I would like to add a page that displays club memeber messages, feedback and reviews. This feature would be used to show positive messages from club members and would serve to attract new memebers to the club.
+- I would like to add a page that displays club memeber messages, feedback and reviews. This feature would be used to show positive messages from club members and would serve to attract new memebers to the club
 
 ## Testing
 
@@ -106,6 +106,13 @@ Some users thought the contact form could be larger on desktop sized screens, ot
 
 - User can choose not to select any checkbox on the signup page
     - It is not possible to make at least one checkbox 'required' using only HTML and CSS and requires the use of JavaScript
+
+## Design
+
+- UI/UX Design
+    - I researched page layout designs to incorporate to my site and created mockups of pages across multiple devices to reference in development
+    - I used a colour palette that reflects the content of the site, using mainly 2 of the 5 available colours to create the sites colour theme
+    - I used 2 similar 'handwritten' style fonts to fit the theme/style of the site
 
 ## Deployment
 - The site was deployed using GitHub pages.
