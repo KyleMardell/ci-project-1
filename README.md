@@ -53,6 +53,12 @@ Testing in development was done using Google Chrome Developer Tools on a Windows
 ### Bugs
 
 ### Validator Testing
+
+- HTML
+    - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fci-project-1%2Findex.html)
+- CSS
+    - No errors were returned when padding though the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fci-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ### Unfixed Bugs
 
 ## Deployment
@@ -63,12 +69,12 @@ Testing in development was done using Google Chrome Developer Tools on a Windows
 ## Credits
 
 ### Content
-The calendar planting and harvesting content was taken from www.lovethegarden.com
+The calendar planting and harvesting content was taken from [Love the garden](https://www.lovethegarden.com/)
 
 ### Media
-- Photos used on the website are from www.pixabay.com
-- Icons used on the wesite are from www.fontawesome.com
-- Font used on the website are from www.fonts.google.com
+- Photos used on the website are from [Pixabay](https://www.pixabay.com)
+- Icons used on the wesite are from [Font Awesome](www.fontawesome.com)
+- Font used on the website are from [Google Fonts](www.fonts.google.com)
 
 
 
