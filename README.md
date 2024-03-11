@@ -68,7 +68,13 @@ The site was deployed to GitHub pages early in development. I used this as a way
 
 I tested the funtionality of the site on multiple browsers, including Chrome, Firefox, Edge and Safari. 
 
-Testing included, all internal links work correctly, all external links work correctly and open in a new browser tab, all layouts are displayed as intended, contact form required information and warning messages, contact form can be submitted correctly, dropdown menu can be accessed and is displayed correctly.
+Testing included:
+- Internal links work correctly
+- External links work correctly and open in a new browser tab
+- Layouts are displayed as intended
+- Contact form required information and warning messages
+- Contact form can be submitted correctly
+- Dropdown menu can be accessed on mobile devices and is displayed correctly
 
 ### User Testing
 In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what i changed on the site to reflect this feesback.
