@@ -62,22 +62,41 @@ Users of the Garden Collective website can find information about the club, how 
 ## Testing
 
 ### Site Testing
-Testing in development was done using Google Chrome Developer Tools on a Windows 11 machine. While building the site i used the "inspect" option within Google Chrome to display different device screen sizes. I also tested the site on a 1080p and 4k monitor to check for consistancy accross all larger screen sizes. 
+Testing in development was done using Google Chrome Developer Tools on a Windows 11 machine. While building the site I used the "inspect" option within Google Chrome to display different device screen sizes. I also tested the site on a 1080p and 4k monitor to check for consistancy accross all larger screen sizes. 
 
 The site was deployed to GitHub pages early in development. I used this as a way to check that implemented features were diplayed correctly when not using my development environment. I would test the deplyed site at the end of every session to ensure it was working as expected through the internet, not just a local server. 
 
 I tested the funtionality of the site on multiple browsers, including Chrome, Firefox, Edge and Safari. 
 
+I tested responsiveness of the site and links using the following physical devices:
+- Windows PC
+- Apple Macbook Pro (2023)
+- iPad pro (2021)
+- iPhone 15
+- Galaxy S20
+
 Testing included:
-- Internal links work correctly
-- External links work correctly and open in a new browser tab
-- Layouts are displayed as intended
-- Contact form required information and warning messages
-- Contact form can be submitted correctly
-- Dropdown menu can be accessed on mobile devices and is displayed correctly
+- Internal links
+    - Tested all links to internal pages work correctly
+- External links
+    - Tested all external links open in a new browser window 
+- Nav bar
+    - Tested dropdown works as intended on mobile devices
+    - Tested expanded nav bar is shown correctly on larger deviced
+- Home page
+    - Tested home page is responsive and changed layout per device
+- Gallery
+    - Tested gallery is resposive and changes layout per device
+    - Tested background colour is displayed on large screens due to masonry style layout
+- Calendar
+    - Tested calendar page is responsive and changes layout per device
+- Contact form
+    - Tested contact form for warning messages and correct submission
+- Images
+    - Tested all images are displayed on all devices
 
 ### User Testing
-In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what i changed on the site to reflect this feesback.
+In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what I changed on the site to reflect this feesback.
 
 - Paragraph text did not fit the style of the site and should follow the style of the heading font
     - Changed the font to a more 'handwritten' style to better suit the site
@@ -86,7 +105,7 @@ In the website user testing stage I had deployed the site on GitHub Pages and as
 - Desktop headings seems small for the screen size
     - Increased heading sizes in home and calendar pages
 
-Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration i decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
+Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration I decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
 
 ### Bugs
 
@@ -119,6 +138,8 @@ Some users thought the contact form could be larger on desktop sized screens, ot
     - I researched page layout designs to incorporate to my site and created mockups of pages across multiple devices to reference in development
     - I used a colour palette that reflects the content of the site, using mainly 2 of the 5 available colours to create the sites colour theme
     - I used 2 similar 'handwritten' style fonts to fit the theme/style of the site
+- Content
+    - I created a draught of written content to reference when creating the site to populate info and calendar sections
 
 ## Deployment
 - The site was deployed using GitHub pages.
