@@ -18,7 +18,7 @@ Users of the Garden Collective website can find information about the club, how 
 ![Nav Bar](https://github.com/KyleMardell/ci-project-1/blob/main/media/header.png)
 
 #### Hero section
-The landing page or hero section displays a large image of the clubs allotment, with a text overlay of the club location, letting the user know imediately who the site is for.
+- The landing page or hero section displays a large image of the clubs allotment, with a text overlay of the club location, letting the user know imediately who the site is for.
 
 ![Hero Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/hero-section.png)
 
