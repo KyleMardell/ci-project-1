@@ -389,6 +389,27 @@ main {
     padding: 5%;
 }
 
+/* Confirmation page */
+#confirmation-page {
+    background-color: #f9f7c3;
+    height: calc(100vh - 107px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#confirmation-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.confirmation-text {
+    font-size: 1.5rem;
+}
+
+/* 404 page */
 #error-page {
     background-color: #f9f7c3;
     height: calc(100vh - 107px);
@@ -607,6 +628,10 @@ main {
         font-size: 3rem;
     }
 
+    /* Confirmation page */
+    #confirmation-page {
+        height: calc(100vh - 118px);
+    }
     /* 404 page */
     #error-page {
         height: calc(100vh - 118px);
