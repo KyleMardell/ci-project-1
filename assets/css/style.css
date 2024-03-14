@@ -389,7 +389,23 @@ main {
     padding: 5%;
 }
 
+#error-page {
+    background-color: #f9f7c3;
+    height: calc(100vh - 107px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
+#error-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#error-text {
+    font-size: 1.5rem;
+}
 
 /* Footer */
 #social-links {
@@ -409,6 +425,7 @@ main {
 
 /* Media query: Tablet size screens and larger */
 @media screen and (min-width: 768px) {
+
     /* Main content */
     main {
         margin-top: 58px;
@@ -589,6 +606,11 @@ main {
         color: #516662;
         font-size: 3rem;
     }
+
+    /* 404 page */
+    #error-page {
+        height: calc(100vh - 118px);
+    }
 }
 
 /* Media query: Large screens such as laptops and desktops */
@@ -654,7 +676,6 @@ main {
         column-count: 3;
     }
 
-    
     /* Calendar page */
     #calendar>h2 {
         font-size: 5rem;
