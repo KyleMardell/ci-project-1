@@ -4,7 +4,7 @@ The Garden Collective website is aimed at gardening enthusiasts looking to join 
 
 Users of the Garden Collective website can find information about the club, how it is run, who is welcome and club times. There is a club calendar to show which months the club is open and what fruit and veg will be planted and harvested. The site is targeted at gardening enthusiasts local to the manchester area.
 
-![Responsive Mockup](https://github.com/KyleMardell/ci-project-1/blob/main/media/am-i-responsive.png)
+![Responsive Mockup](https://github.com/KyleMardell/garden-collective/blob/main/media/am-i-responsive.png)
 
 ## User Experience
 
@@ -81,7 +81,7 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 - The nav bar is fully resposive with a drop down menu for smaller screens and a fixed page list on larger screens
 - This section allows the user to easily navigate the site and see all available pages without using the browsers "back" button
 
-![Nav Bar](https://github.com/KyleMardell/ci-project-1/blob/main/media/header.png)
+![Nav Bar](https://github.com/KyleMardell/garden-collective/blob/main/media/header.png)
 
 #### Index Page
 - The index page is split into 3 sections, a hero section, info section and call to action section
@@ -89,41 +89,41 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 ##### Hero Section
 - The landing page or hero section displays a large image of the clubs allotment, with a text overlay of the club location, letting the user know imediately who the site is for
 
-![Hero Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/hero-section.png)
+![Hero Section](https://github.com/KyleMardell/garden-collective/blob/main/media/hero-section.png)
 
 ##### Info Section
 - The info section gives the user all the information needed about the club and serves to attract more members
 - On small devices(phone screens) the information is split into 4 text boxes, each giving different aspects of information about the club
 - On larger devices, the text boxes are accompaied by a relevant image and is displayed in a grid format to make better use of screen space
 
-![Info Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/info-section.png)
+![Info Section](https://github.com/KyleMardell/garden-collective/blob/main/media/info-section.png)
 
 ##### Call-To-Action Section
 - The call-to-action section is a way to direct users to the contact/sign-up page
 - This section displays an attractive image with with a textbox overlay. The text box contains a link to the sign-up page
 - This section provides the user a quick way of navigating to the sign-up page, and the use of a call to action will further entice potential club memebers to join
 
-![Call To Action Section](https://github.com/KyleMardell/ci-project-1/blob/main/media/cta-section.png)
+![Call To Action Section](https://github.com/KyleMardell/garden-collective/blob/main/media/cta-section.png)
 
 #### Calendar Page
 - The calendar page gives the user more information about what produce the club is planting and harvesting from month to month, throughout the growing season
 - This section gives the user further information about what produce the club grows and what they can expect when joining a session in a particular month
 - It can also be used as a calendar for home growing, displaying when each vegetable should be planted or harvested
 
-![Calendar Page](https://github.com/KyleMardell/ci-project-1/blob/main/media/calander-section.png)
+![Calendar Page](https://github.com/KyleMardell/garden-collective/blob/main/media/calander-section.png)
 
 #### Gallery Page
 - The gallery page displays photos of the types of produce that the club grows and what a club member can expect to see at the allotment
 - It also serves to display all the images from the other pages that are not displayed on smaller devices. This means all photos can still be viewed when using a mobile device to access the site
 
-![Gallery](https://github.com/KyleMardell/ci-project-1/blob/main/media/gallery%20section.png)
+![Gallery](https://github.com/KyleMardell/garden-collective/blob/main/media/gallery%20section.png)
 
 #### Contact Page
 - The contact page allows the user to send a message to the club
 - It also serves as a way for potential members to display an interest in joining the club. On the contact page there is an optional checkbox section, designed to let the club oporator easily see what type of question a user may have
 - The user is required to submit their first and second name, email adress and message in order to send in a contact form
 
-![Contact Page](https://github.com/KyleMardell/ci-project-1/blob/main/media/contact-section.png)
+![Contact Page](https://github.com/KyleMardell/garden-collective/blob/main/media/contact-section.png)
 
 #### Confirmation Page
 - This page is only displayed when the user correctly submits a contact form
@@ -144,8 +144,8 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 
 ## Deployment
 - The site was deployed using GitHub pages.
-- The repositary can be found here - https://github.com/KyleMardell/ci-project-1
-- The deployed site can be found here - https://kylemardell.github.io/ci-project-1/index.html
+- The repositary can be found here - https://github.com/KyleMardell/garden-collective
+- The deployed site can be found here - https://kylemardell.github.io/garden-collective/
 
 - To deploy using GitHub pages
     - Login or Sign Up to GitHub
@@ -159,12 +159,12 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 
 - To fork the reositary
     - Login or Sign Up to GitHub
-    - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/ci-project-1)
+    - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/garden-collective)
     - Click the "Fork" button on the top right of the page
-    
+
 - To clone the repositary
     - Login or Sign Up to GitHub
-    - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/ci-project-1)
+    - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/garden-collective)
     - Click on the "Code" button
     - Select how you would like to clone (HTTPS, SSH, or GitHub CLI)
     - Copy your chosen link
