@@ -235,7 +235,7 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 ### Media
 - Photos used on the website are from [Pixabay](https://www.pixabay.com)
 - Icons used on the wesite are from [Font Awesome](https://www.fontawesome.com)
-- Font used on the website are from [Google Fonts](https://www.fonts.google.com)
+- Font used on the website are from [Google Fonts](https://www.fonts.google.com/)
 
 
 
