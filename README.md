@@ -35,7 +35,9 @@ I chose a colour palette that reflects the content of the site, using mainly 2 o
 I used Google Fonts to import my chosen font for the site.
 
 I used 2 similar 'handwritten' style fonts to fit the theme/style of the site. Both fonts used are in a sans-serif style, as when thinking about accessibility these fonts are easier to read on screens. The fonts used are named 'Handlee' and 'Patrick Hand'.
+
 ![Handlee Font](https://github.com/KyleMardell/garden-collective/blob/main/media/handlee-font.png)
+
 ![Partick Hand Font](https://github.com/KyleMardell/garden-collective/blob/main/media/patrick-hand-font.png)
 
 #### Content
@@ -50,8 +52,16 @@ All the images on the site were chosen to fit the theme of the site and to provi
 
 I researched page layout designs to incorporate to my site and to create mockups. I then created loose design mockups of the site on mobile, tablet and desktop sized screens Finally I used the mockups when creating the page so I had a design to follow.
 
+- Mobile Mockups
+
 ![Mobile Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mobile-mockup.jpg)
+
+- Tablet Mockups
+
 ![Tablet Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/tablet-mockup.jpg)
+
+- Desktop Mockups
+
 ![Desktop Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/desktop-mockup.jpg)
 
 ## Features
@@ -61,7 +71,9 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 ### Existing Features
 
 #### Favicon
+
 - I chose a simple favicon with the letters 'GC' for 'Garden Collective' following the colour scheme of the site
+
 ![Favicon](https://github.com/KyleMardell/garden-collective/blob/main/assets/favicon/apple-touch-icon.png)
 
 #### Navigation bar
@@ -134,6 +146,7 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 - The site was deployed using GitHub pages.
 - The repositary can be found here - https://github.com/KyleMardell/ci-project-1
 - The deployed site can be found here - https://kylemardell.github.io/ci-project-1/index.html
+
 - To deploy using GitHub pages
     - Login or Sign Up to GitHub
     - Open the project repository
@@ -143,10 +156,12 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
     - Choose which folder to deploy from, usually "/root"
     - Click "Save", then wait for the page to be deplayed
     - The URL is displayed above "Source"
+
 - To fork the reositary
     - Login or Sign Up to GitHub
     - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/ci-project-1)
     - Click the "Fork" button on the top right of the page
+    
 - To clone the repositary
     - Login or Sign Up to GitHub
     - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/ci-project-1)
