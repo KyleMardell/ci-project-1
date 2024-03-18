@@ -86,7 +86,7 @@ All the images on the site were chosen to fit the theme of the site and to provi
 
 ### Content
 
-I researched the types of produce that can be planted and harvested in a given month, and then created a draught of written content to reference when creating the site to populate info and calendar sections.
+I researched the types of produce that can be planted and harvested in a given month, and then created a draught of written content to reference when creating the site to populate info and calendar sections. The draughted content can be found [here](https://github.com/KyleMardell/garden-collective/blob/main/media/content.md)
 
 ### Site Mockups
 
