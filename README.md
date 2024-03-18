@@ -54,17 +54,11 @@ All the images on the site were chosen to fit the theme of the site and to provi
 
 I researched page layout designs to incorporate to my site and to create mockups. I then created loose design mockups of the site on mobile, tablet and desktop sized screens Finally I used the mockups when creating the page so I had a design to follow.
 
-- Mobile Mockups
+- [Mobile Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mobile-mockup.jpg)
 
-![Mobile Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mobile-mockup.jpg)
+- [Tablet Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/tablet-mockup.jpg)
 
-- Tablet Mockups
-
-![Tablet Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/tablet-mockup.jpg)
-
-- Desktop Mockups
-
-![Desktop Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/desktop-mockup.jpg)
+- [Desktop Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/desktop-mockup.jpg)
 
 ## Features
 
