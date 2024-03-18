@@ -4,6 +4,8 @@ The Garden Collective website is aimed at gardening enthusiasts looking to join 
 
 Users of the Garden Collective website can find information about the club, how it is run, who is welcome and club times. There is a club calendar to show which months the club is open and what fruit and veg will be planted and harvested. The site is targeted at gardening enthusiasts local to the manchester area.
 
+The deployed site can be found [here](https://kylemardell.github.io/garden-collective/)
+
 ![Responsive Mockup](https://github.com/KyleMardell/garden-collective/blob/main/media/am-i-responsive.png)
 
 ## User Experience
