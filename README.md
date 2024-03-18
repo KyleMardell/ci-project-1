@@ -130,14 +130,14 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 - The page is displayed for 10 seconds to let the user know their form has been recieved
 - The page redirects to the home page after the timer is up
 
-![Confirmtation Page]()
+![Confirmtation Page](https://github.com/KyleMardell/garden-collective/blob/main/media/confirmation-page.png)
 
 #### 404 Page
 - This page lets the user know there was an error
 - The page displays the usual 404 text
 - The page displays an error message to let the user know something went wrong
 
-![404 Page]()
+![404 Page](https://github.com/KyleMardell/garden-collective/blob/main/media/404-page.png)
 
 ### Fututre features to implement
 - I would like to add a page that displays club memeber messages, feedback and reviews. This feature would be used to show positive messages from club members and would serve to attract new memebers to the club
