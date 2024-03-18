@@ -8,6 +8,44 @@ The deployed site can be found [here](https://kylemardell.github.io/garden-colle
 
 ![Responsive Mockup](https://github.com/KyleMardell/garden-collective/blob/main/media/am-i-responsive.png)
 
+- - -
+
+## Contents
+
+- [User Experience](#user-experience)
+    - [First Time Visitors](#first-time-visitor-goals)
+    - [Returning Visitors](#returning-visitor-goals)
+- [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Images](#images)
+    - [Content](#content)
+    - [Mockups](#site-mockups)
+- [Features](#features)
+    - [Favicon](#favicon)
+    - [Navigation Bar](#navigation-bar)
+    - [Home/Index Page](#index-page)
+        - [Hero Section](#hero-section)
+        - [Info Section](#info-section)
+        - [Call-To-Action Section](#call-to-action-section)
+    - [Calendar Page](#calendar-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Page](#contact-page)
+    - [Confirmation Page](#confirmation-page)
+    - [404 Page](#404-page)
+    - [Future Features](#fututre-features-to-implement)
+- [Deployment](#deployment)
+    - [Github Deployment](#github-deployment)
+    - [Fork Repositary](#fork-repositary)
+    - [Clone Repositary](#clone-repositary)
+- [Testing](#testing)
+- [Credits](#credits)
+    - [Site Features](#site-features)
+    - [Content](#content-1)
+    - [Media](#media)
+
+- - - 
+
 ## User Experience
 
 ### First Time Visitor Goals
@@ -24,33 +62,33 @@ The deployed site can be found [here](https://kylemardell.github.io/garden-colle
 
 ## Design
 
-### UI/UX Design
-
-#### Colour Scheme
+### Colour Scheme
 
 I chose a colour palette that reflects the content of the site, using mainly 2 of the 5 available colours to create the sites colour theme. As the site is about gardening I wanted to use a colour pallete incorporating greens and yellows.
 
 ![Colour Pallete](https://github.com/KyleMardell/garden-collective/blob/main/media/color-palette.png)
 
-#### Typography
+### Typography
 
 I used Google Fonts to import my chosen font for the site.
 
 I used 2 similar 'handwritten' style fonts to fit the theme/style of the site. Both fonts used are in a sans-serif style, as when thinking about accessibility these fonts are easier to read on screens. The fonts used are named 'Handlee' and 'Patrick Hand'.
 
+- Handlee
 ![Handlee Font](https://github.com/KyleMardell/garden-collective/blob/main/media/handlee-font.png)
 
+- Patrick Hand
 ![Partick Hand Font](https://github.com/KyleMardell/garden-collective/blob/main/media/patrick-hand-font.png)
 
-#### Content
-
-I researched the types of produce that can be planted and harvested in a given month, and then created a draught of written content to reference when creating the site to populate info and calendar sections.
-
-#### Images
+### Images
 
 All the images on the site were chosen to fit the theme of the site and to provide the user with a more visual representation of the club.
 
-#### Site Mockups
+### Content
+
+I researched the types of produce that can be planted and harvested in a given month, and then created a draught of written content to reference when creating the site to populate info and calendar sections.
+
+### Site Mockups
 
 I researched page layout designs to incorporate to my site and to create mockups. I then created loose design mockups of the site on mobile, tablet and desktop sized screens Finally I used the mockups when creating the page so I had a design to follow.
 
@@ -59,6 +97,8 @@ I researched page layout designs to incorporate to my site and to create mockups
 - [Tablet Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/tablet-mockup.jpg)
 
 - [Desktop Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/desktop-mockup.jpg)
+
+- - -
 
 ## Features
 
@@ -138,10 +178,14 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 ### Fututre features to implement
 - I would like to add a page that displays club memeber messages, feedback and reviews. This feature would be used to show positive messages from club members and would serve to attract new memebers to the club
 
+- - - 
+
 ## Deployment
 - The site was deployed using GitHub pages.
 - The repositary can be found here - https://github.com/KyleMardell/garden-collective
 - The deployed site can be found here - https://kylemardell.github.io/garden-collective/
+
+### GitHub Deployment
 
 - To deploy using GitHub pages
     - Login or Sign Up to GitHub
@@ -153,10 +197,14 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
     - Click "Save", then wait for the page to be deplayed
     - The URL is displayed above "Source"
 
+### Fork Repositary
+
 - To fork the reositary
     - Login or Sign Up to GitHub
     - Naviagte to the repositary for this project [Garden Collective](https://github.com/KyleMardell/garden-collective)
     - Click the "Fork" button on the top right of the page
+
+### Clone Repositary
 
 - To clone the repositary
     - Login or Sign Up to GitHub
@@ -168,18 +216,26 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
     - Change the current working directory to the location you want to use for the cloned directory
     - Type "git clone" into the terminal followed by the copied link and press enter.
 
+- - -
+
 ## Testing
 - Testing documentation can be found [here](https://github.com/KyleMardell/garden-collective/blob/main/TESTING.md)
 
+- - -
+
 ## Credits
+
+### Site Features
+- The dropdown menu was inspired by the [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) Code Institute project
+- The footer with social media links was inspired by the [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) Code Institute project, using different icons to suit the sites theme
 
 ### Content
 -The calendar planting and harvesting content was taken from [Love the garden](https://www.lovethegarden.com/)
 
 ### Media
 - Photos used on the website are from [Pixabay](https://www.pixabay.com)
-- Icons used on the wesite are from [Font Awesome](www.fontawesome.com)
-- Font used on the website are from [Google Fonts](www.fonts.google.com)
+- Icons used on the wesite are from [Font Awesome](https://www.fontawesome.com)
+- Font used on the website are from [Google Fonts](https://www.fonts.google.com)
 
 
 
