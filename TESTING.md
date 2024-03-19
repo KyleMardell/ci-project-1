@@ -60,12 +60,12 @@ The alerts on each page are for a 'Redundant link'. This is caused by having all
 
 There is an additional alert for 'Possible heading' in the index page within the hero section text box. Here I have used a heading for the club name and paragraph text for the address, the address causing the alert.
 
-- [Index Page]()
-- [Calendar-Page]()
-- [Gallery Page]()
-- [Contact Page]()
-- [Confirmation Page]()
-- [404 Page]()
+- [Index Page](https://github.com/KyleMardell/garden-collective/blob/main/media/wave/index-wave.png)
+- [Calendar-Page](https://github.com/KyleMardell/garden-collective/blob/main/media/wave/calendar-wave.png)
+- [Gallery Page](https://github.com/KyleMardell/garden-collective/blob/main/media/wave/gallery-wave.png)
+- [Contact Page](https://github.com/KyleMardell/garden-collective/blob/main/media/wave/contact-wave.png)
+- [Confirmation Page](https://github.com/KyleMardell/garden-collective/blob/main/media/wave/confirmation-wave.png)
+- [404 Page](https://github.com/KyleMardell/garden-collective/blob/main/media/wave/404-wave.png)
 
 ### User Testing
 
