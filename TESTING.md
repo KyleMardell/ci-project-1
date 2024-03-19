@@ -1,9 +1,30 @@
 ## Testing
 
-### Site Testing
-Testing in development was done using Google Chrome Developer Tools on a Windows 11 machine. While building the site I used the "inspect" option within Google Chrome to display different device screen sizes. I also tested the site on a 1080p and 4k monitor to check for consistancy accross all larger screen sizes. 
+Testing in development was done using Google Chrome Developer Tools on a Windows 11 machine. While building the site I used the "inspect" option within Google Chrome to display different device screen sizes. I also tested the site on a 1080p and 4k monitor to check for consistancy accross larger screen sizes. 
 
-The site was deployed to GitHub pages early in development. I used this as a way to check that implemented features were diplayed correctly when not using my development environment. I would test the deplyed site at the end of every session to ensure it was working as expected through the internet, not just a local server. 
+The site was deployed to GitHub pages early in development. I used this as a way to check that implemented features were diplayed and functioning correctly when not using my development environment. I would test the deplyed site at the end of every session to ensure it was working as expected through the internet, not just a local server. 
+
+I used the W3 Validator for both the HTML and CSS to check there were no errors on the site.
+
+### Validator Testing
+
+- HTML Testing Using The [W3C Validator](https://validator.w3.org/)
+    - [Index Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Findex.html)
+    - [Calendar Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fcalendar.html)
+    - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fgallery.html)
+    - [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fcontact.html)
+    - [Confirmation Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fconfirmation.html)
+    - [404 Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2F404.html)
+
+- CSS Testing Using The [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+    - [Index Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [Calendar Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fcalendar.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [Gallery Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [Contact Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [Confirmation Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fconfirmation.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [404 Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2F404.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Site Testing
 
 I tested the funtionality of the site on multiple browsers, including Chrome, Firefox, Edge and Safari. 
 
@@ -60,13 +81,6 @@ Some users thought the contact form could be larger on desktop sized screens, ot
     - I was applying the image to a div instead of the section. Applied image to section background
 - Background images on calendar and contact pages exceeded screen height
     - I had set the min 'height' to viewport 'width', changed to viewport height as intended
-
-### Validator Testing
-
-- HTML
-    - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fci-project-1%2Findex.html)
-- CSS
-    - No errors were returned when padding though the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fci-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
