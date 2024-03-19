@@ -6,7 +6,7 @@ The site was deployed to GitHub pages early in development. I used this as a way
 
 I used the W3 Validator for both the HTML and CSS to check there were no errors on the site.
 
-### Validator Testing
+### Validator
 
 - HTML Testing Using The [W3C Validator](https://validator.w3.org/)
     - [Index Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Findex.html)
@@ -23,6 +23,26 @@ I used the W3 Validator for both the HTML and CSS to check there were no errors 
     - [Contact Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     - [Confirmation Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2Fconfirmation.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     - [404 Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkylemardell.github.io%2Fgarden-collective%2F404.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Lighthouse
+
+I tested the website using Google Chromes Lighthouse tool for accessibility, performance, best practices and SEO. All categories recieved high scores across both desktop and mobile testing. When testing on mobile the performance scores dropped slightly as expected due to the use of high quality images, but not enough to noticably affect the user experience. When testing the confirmation page, an accessibility score of 92% was achieved due to the use of a redirection meta tag. Although this reduces the score, I believe the use of a confirmation page  and redirect to the home page increases the overall user experience.
+
+#### Desktop Results
+- [Index Page]()
+- [Calendar Page]()
+- [Gallery Page]()
+- [Contact Page]()
+- [Confirmation Page]()
+- [404 Page]()
+
+#### Mobile Results
+- [Index Page]()
+- [Calendar Page]()
+- [Gallery Page]()
+- [Contact Page]()
+- [Confirmation Page]()
+- [404 Page]()
 
 ### Site Testing
 
@@ -54,8 +74,6 @@ Testing included:
     - Tested contact form for warning messages and correct submission
 - Images
     - Tested all images are displayed on all devices
-
-I tested the website using Google Chromes Lighthouse tool for accessibility, performance, best practices and SEO. Performance recieved a score of 85% and all other categories recieved 100% scores.
 
 ### User Testing
 In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what I changed on the site to reflect this feesback.
