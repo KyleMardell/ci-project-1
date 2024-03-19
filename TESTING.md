@@ -46,6 +46,23 @@ I tested the website using Google Chromes Lighthouse tool for accessibility, per
     - [Accessibility Score](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/accessibility-lighthouse-mobile.png)
 - [404 Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/404-lighthouse-mobile.png)
 
+### WAVE
+
+All pages of the site were tested using the Web Accessibility Evaluation Tool (WAVE)
+
+### User Testing
+
+In the user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what I changed on the site to reflect this feedback.
+
+- Paragraph text did not fit the style of the site and should follow the style of the heading font
+    - Changed the font to a more 'handwritten' style to better suit the site
+- Signup page form is more of a contact form than a signup form
+    - Changed naming of 'Signup' to 'Contact' to better suit
+- Desktop headings seems small for the screen size
+    - Increased heading sizes in home and calendar pages
+
+Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration I decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
+
 ### Site Testing
 
 I tested the funtionality of the site on multiple browsers, including Chrome, Firefox, Edge and Safari. 
@@ -77,17 +94,7 @@ Testing included:
 - Images
     - Tested all images are displayed on all devices
 
-### User Testing
-In the website user testing stage I had deployed the site on GitHub Pages and asked friends and course peers to test the site for both functionality and looks. Here is some of the feedback I recieved and what I changed on the site to reflect this feesback.
-
-- Paragraph text did not fit the style of the site and should follow the style of the heading font
-    - Changed the font to a more 'handwritten' style to better suit the site
-- Signup page form is more of a contact form than a signup form
-    - Changed naming of 'Signup' to 'Contact' to better suit
-- Desktop headings seems small for the screen size
-    - Increased heading sizes in home and calendar pages
-
-Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration I decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
+### Manual Testing
 
 ### Bugs
 
@@ -106,3 +113,4 @@ Some users thought the contact form could be larger on desktop sized screens, ot
 
 - User can choose not to select any checkbox on the signup page
     - It is not possible to make at least one checkbox 'required' using only HTML and CSS and requires the use of JavaScript
+
