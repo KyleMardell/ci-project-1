@@ -29,20 +29,22 @@ I used the W3 Validator for both the HTML and CSS to check there were no errors 
 I tested the website using Google Chromes Lighthouse tool for accessibility, performance, best practices and SEO. All categories recieved high scores across both desktop and mobile testing. When testing on mobile the performance scores dropped slightly as expected due to the use of high quality images, but not enough to noticably affect the user experience. When testing the confirmation page, an accessibility score of 92% was achieved due to the use of a redirection meta tag. Although this reduces the score, I believe the use of a confirmation page  and redirect to the home page increases the overall user experience.
 
 #### Desktop Results
-- [Index Page]()
-- [Calendar Page]()
-- [Gallery Page]()
-- [Contact Page]()
-- [Confirmation Page]()
-- [404 Page]()
+- [Index Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/index-lighthouse-desktop.png)
+- [Calendar Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/calendar-lighthouse-desktop.png)
+- [Gallery Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/gallery-lighthouse-desktop.png)
+- [Contact Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/contact-lighthouse-desktop.png)
+- [Confirmation Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/confirmation-lighthouse-desktop.png)
+    - [Accessibility Score](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/accessibility-lighthouse-desktop.png)
+- [404 Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/404-lighthouse-desktop.png)
 
 #### Mobile Results
-- [Index Page]()
-- [Calendar Page]()
-- [Gallery Page]()
-- [Contact Page]()
-- [Confirmation Page]()
-- [404 Page]()
+- [Index Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/index-lighthouse-mobile.png)
+- [Calendar Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/calendar-lighthouse-mobile.png)
+- [Gallery Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/gallery-lighthouse-mobile.png)
+- [Contact Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/contact-lighthouse-mobile.png)
+- [Confirmation Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/confirmation-lighthouse-mobile.png)
+    - [Accessibility Score](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/accessibility-lighthouse-mobile.png)
+- [404 Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/404-lighthouse-mobile.png)
 
 ### Site Testing
 

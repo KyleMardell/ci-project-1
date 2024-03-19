@@ -92,11 +92,11 @@ I researched the types of produce that can be planted and harvested in a given m
 
 I researched page layout designs to incorporate to my site and to create mockups. I then created loose design mockups of the site on mobile, tablet and desktop sized screens Finally I used the mockups when creating the page so I had a design to follow.
 
-- [Mobile Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mobile-mockup.jpg)
+- [Mobile Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mockups/mobile-mockup.jpg)
 
-- [Tablet Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/tablet-mockup.jpg)
+- [Tablet Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mockups/tablet-mockup.jpg)
 
-- [Desktop Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/desktop-mockup.jpg)
+- [Desktop Mockups](https://github.com/KyleMardell/garden-collective/blob/main/media/mockups/desktop-mockup.jpg)
 
 - - -
 
