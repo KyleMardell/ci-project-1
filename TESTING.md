@@ -26,7 +26,7 @@ I used the W3 Validator for both the HTML and CSS to check there were no errors 
 
 ### Lighthouse
 
-I tested the website using Google Chromes Lighthouse tool for accessibility, performance, best practices and SEO. All categories recieved high scores across both desktop and mobile testing. When testing on mobile the performance scores dropped slightly as expected due to the use of high quality images, but not enough to noticably affect the user experience. When testing the confirmation page, an accessibility score of 92% was achieved due to the use of a redirection meta tag. Although this reduces the score, I believe the use of a confirmation page  and redirect to the home page increases the overall user experience.
+I tested the website using Google Chromes Lighthouse tool for accessibility, performance, best practices and SEO. All categories recieved high scores across both desktop and mobile testing. When testing on mobile the performance scores dropped slightly as expected due to the use of high quality images, but not enough to noticably affect the user experience. When testing the confirmation page, an accessibility score of 92% was achieved due to the use of a redirection meta tag. Although this reduces the score, I believe the use of a confirmation page and redirect to the home page increases the overall user experience.
 
 #### Desktop Results
 - [Index Page](https://github.com/KyleMardell/garden-collective/blob/main/media/lighthouse/index-lighthouse-desktop.png)
@@ -48,7 +48,24 @@ I tested the website using Google Chromes Lighthouse tool for accessibility, per
 
 ### WAVE
 
-All pages of the site were tested using the Web Accessibility Evaluation Tool (WAVE)
+All pages of the site were tested using the Web Accessibility Evaluation Tool (WAVE).
+
+The error that is raised on each page is due to using a checkbox input as a dropdown menu. The label contains an icon instead of text and produces an 'Empty form label' warning, This is because i have used only HTML and CSS to create the dropdown menu.
+
+There is an error on the contact page for a 'Missing form label'. The label is present in the HTML for the use of screen readers but hidden using CSS for a cleaner looking form. Here I have used a placeholder containing the words 'Enter your message here' to let the user know where to input their contact message.
+
+On the confirmation page there is an error for 'Page refreshes or redirects' due to using a redirect tag as described in the [lighthouse](#lighthouse) testing.
+
+The alerts on each page are for a 'Redundant link'. This is caused by having all page links in the menu visible on each page for consistancy.
+
+There is an additional alert for 'Possible heading' in the index page within the hero section text box. Here I have used a heading for the club name and paragraph text for the address, the address causing the alert.
+
+- [Index Page]()
+- [Calendar-Page]()
+- [Gallery Page]()
+- [Contact Page]()
+- [Confirmation Page]()
+- [404 Page]()
 
 ### User Testing
 
