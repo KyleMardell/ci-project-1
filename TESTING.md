@@ -114,7 +114,8 @@ Testing included:
 #### Manual Testing
 
 | Feature | Expected Outcome | Test Performed | Result | Pass/Fail |
-| NAVBAR | 
+| --- | --- | --- | --- | --- |
+| NAVBAR |
 | Logo text link | When clicked redirects to the home page | Clicked logo | Redirected to home page | Pass |
 | Navbar Home link | When clicked redirects to the home page | Clicked link | Redirected to home page | Pass |
 | Navbar Home link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
@@ -136,7 +137,7 @@ Testing included:
 | Info section images (desktop) | Images displayed in addition to text | Displayed on desktop screen compared to mobile | Images displayed | Pass |
 | Call to action link | When clicked redirects to the Contact page | Clicked link | Redirected to Contact page | Pass |
 | Call to action link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
-| CONTACT PAGE | 
+| CONTACT PAGE |
 
 
 ### Bugs
