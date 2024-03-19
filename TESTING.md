@@ -111,9 +111,37 @@ Testing included:
 - Images
     - Tested all images are displayed on all devices
 
-### Manual Testing
+#### Manual Testing
+
+| Feature | Expected Outcome | Test Performed | Result | Pass/Fail |
+| NAVBAR | 
+| Logo text link | When clicked redirects to the home page | Clicked logo | Redirected to home page | Pass |
+| Navbar Home link | When clicked redirects to the home page | Clicked link | Redirected to home page | Pass |
+| Navbar Home link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| Navbar Calendar link | When clicked redirects to the home page | Clicked link | Redirected to Calendar page | Pass |
+| Navbar Calendar link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| Navbar Gallery link | When clicked redirects to the Gallery page | Clicked link | Redirected to Gallery page | Pass |
+| Navbar Gallery link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| Navbar Contact link | When clicked redirects to the Contact page | Clicked link | Redirected to Contact page | Pass |
+| Navbar Contact link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| Navbar burger icon (mobile) | Displays dropdown menu | Clicked icon on mobile device | Opened dropdown menu | Pass |
+| FOOTER |
+| Footer Facebook link | When clicked opens Facebook page in a new tab | Clicked link | Opened Facebook page in a new tab | Pass |
+| Footer Facebook link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| Footer X/Twitter link | When clicked opens X/Twitter page in a new tab | Clicked link | Opened X/Twitter page in a new tab | Pass |
+| Footer X/Twitter link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| Footer Instagram link | When clicked opens Instagram page in a new tab | Clicked link | Opened Instagram page in a new tab | Pass |
+| Footer Instagram link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| INDEX PAGE |
+| Info section images (desktop) | Images displayed in addition to text | Displayed on desktop screen compared to mobile | Images displayed | Pass |
+| Call to action link | When clicked redirects to the Contact page | Clicked link | Redirected to Contact page | Pass |
+| Call to action link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
+| CONTACT PAGE | 
+
 
 ### Bugs
+
+#### Fixed In Development
 
 - Nav bar text not aligned with logo text
     - Removed padding to correctly align all items is the nav bar
@@ -126,7 +154,7 @@ Testing included:
 - Background images on calendar and contact pages exceeded screen height
     - I had set the min 'height' to viewport 'width', changed to viewport height as intended
 
-### Unfixed Bugs
+#### Unfixed Bugs
 
 - User can choose not to select any checkbox on the signup page
     - It is not possible to make at least one checkbox 'required' using only HTML and CSS and requires the use of JavaScript
