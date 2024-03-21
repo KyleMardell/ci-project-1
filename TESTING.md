@@ -138,7 +138,15 @@ Testing included:
 | Call to action link | When clicked redirects to the Contact page | Clicked link | Redirected to Contact page | Pass |
 | Call to action link: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over link | Link changed colour | Pass |
 | CONTACT PAGE |
-
+| Form Submit | Error message | Submitted form without first name entered | Error shown: focused on first name text box | Pass |
+| Form Submit | Error message | Submitted form without last name entered | Error shown: focused on last name text box | Pass |
+| Form Submit | Error message | Submitted form without email address entered | Error shown: focused on email address text box | Pass |
+| Form Submit | Error message | Submitted form without message entered | Error shown: focused on message text box | Pass |
+| Form Submit | Error message | Submitted form with incorrect email address type | Error shown: focused on email address text box | Pass |
+| Form Submit button | When clicked submits form and displays confirmation page | Clicked submit with correct form information | Confirmation page shown | Pass |
+| Form Submit button: hover (desktop) | Changes colour when hovered over with mouse | Hovered mouse over button | Button changed colour | Pass |
+| Confirmation Page |
+| Redirect | Redirects to home page after 10 seconds | Submitted form | Confirmation page displayed and redirected to home page after 10 seconds | Pass |
 
 ### Bugs
 
