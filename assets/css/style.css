@@ -593,10 +593,6 @@ main {
     }
 
     /* Contact page */
-    #contact {
-        height: calc(100vh - 118px);
-    }
-
     #contact-form {
         max-height: 550px;
         width: 375px;
@@ -628,12 +624,8 @@ main {
         font-size: 3rem;
     }
 
-    /* Confirmation page */
-    #confirmation-page {
-        height: calc(100vh - 118px);
-    }
-    /* 404 page */
-    #error-page {
+    /* Full Screen Class for Contact, Confirmation and 404 Page */
+    .full-screen {
         height: calc(100vh - 118px);
     }
 }
