@@ -78,8 +78,6 @@ In the user testing stage I had deployed the site on GitHub Pages and asked frie
 - Desktop headings seems small for the screen size
     - Increased heading sizes in home and calendar pages
 
-Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration I decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
-
 ### Site Testing
 
 I tested the funtionality of the site on multiple browsers, including Chrome, Firefox, Edge and Safari. 

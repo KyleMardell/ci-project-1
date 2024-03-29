@@ -158,6 +158,7 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 - The contact page allows the user to send a message to the club
 - It also serves as a way for potential members to display an interest in joining the club. On the contact page there is an optional checkbox section, designed to let the club oporator easily see what type of question a user may have
 - The user is required to submit their first and second name, email adress and message in order to send in a contact form
+- Some users thought the contact form could be larger on desktop sized screens, others liked the consistant layout across multiple devices. After some consideration I decided to keep the size of the contact form for consistancy as user feedback was fairly evenly split.
 
 ![Contact Page](https://github.com/KyleMardell/garden-collective/blob/main/media/contact-section.png)
 
@@ -230,7 +231,7 @@ The site is made up of 6 pages, 4 main site pages, a form submittion confirmatio
 - The footer with social media links was inspired by the [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) Code Institute project, using different icons to suit the sites theme
 
 ### Content
--The calendar planting and harvesting content was taken from [Love the garden](https://www.lovethegarden.com/)
+- The calendar planting and harvesting content was taken from [Love the garden](https://www.lovethegarden.com/)
 
 ### Media
 - Photos used on the website are from [Pixabay](https://www.pixabay.com)
